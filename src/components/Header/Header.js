@@ -31,6 +31,17 @@ const Header = () =>  (
         </Link>
       </li>
     </Div2>
+    <Div3>
+      <SocialIcons href="https://github.com/Taesan-Peter-Kim-Code">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/peter-kim-436782183/">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/taesannn/">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+    </Div3>
   </Container>
 );
 
