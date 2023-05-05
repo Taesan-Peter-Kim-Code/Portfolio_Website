@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiBackbone, DiCode, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiBackbone, DiBitbucket, DiCode, DiComposer, DiDatabase, DiDjango, DiDocker, DiFirebase, DiMootools, DiMootoolsBadge, DiReact, DiTerminal, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <br />
     <br />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web and API development world.
     </SectionText>
@@ -20,23 +20,21 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Python,
-            JavaScript,
-            Java,
+            Python | 
+            JavaScript <br />
+            Java | 
             GoLang
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiBackbone size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Django,
-            Node.js,
-            Database
+            Django | 
+            Node.js | 
+            Flask 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,8 +43,40 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js, Next.js
+            React.js | 
+            Next.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiDatabase size="3rem" />
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            PostgreSQL | 
+            MySQL <br />
+            MongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiDocker size="3rem" />
+        <ListContainer>
+          <ListTitle>DevOp</ListTitle>
+          <ListParagraph>
+            Docker | 
+            Kubernetes <br />
+            AWS | CI/CD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiTerminal size="3rem" />
+        <ListContainer>
+          <ListTitle>Related Skills</ListTitle>
+          <ListParagraph>
+            RESTful API | 
+            GraphQL <br />       
           </ListParagraph>
         </ListContainer>
       </ListItem>
