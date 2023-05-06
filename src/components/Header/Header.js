@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { DiCode, DiCssdeck, DiGhost, DiGitBranch, DiTerminal, DiVisualstudio } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -32,6 +32,9 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
+      <SocialIcons href="mailto:taesan.peter.kim@gmail.com">
+        <AiFillMail size="3rem" />
+      </SocialIcons>
       <SocialIcons href="https://github.com/Taesan-Peter-Kim-Code">
         <AiFillGithub size="3rem" />
       </SocialIcons>
