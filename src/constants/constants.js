@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'AI Summarizer',
-    description: "Using OpenAI API through Rapid built a web application that generates summarized articles from a given URL. Using React",
+    description: "Using OpenAI API through Rapid, built a web application that generates summarized articles from a given URL. Using React",
       image: '/images/1.png',
       tags: ['React', 'Vite', 'TailwindCSS', 'Rapid API'],
     source: 'https://github.com/Taesan-Peter-Kim-Code/AI_Summarizer_Web_App',
@@ -10,22 +10,22 @@ export const projects = [
   },
   {
     title: 'Portfolio Website',
-    description:"Using React and Node built a personal portfolio website",
+    description:"Using React and Node, built a personal portfolio website",
     image: '/images/2.png',
     tags: ['React', 'Node', 'JavaScript'],
     source: 'https://github.com/Taesan-Peter-Kim-Code/Portfolio_Website',
     visit: 'https://github.com/Taesan-Peter-Kim-Code/Portfolio_Website',
     id: 1,
   },
-  // {
-  //   title: 'WebRTC App',
-  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //     image: '/images/3.jpg',
-  //     tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
+  {
+    title: 'Personal Github Repo',
+    description: "Using React and GraphQL, built a personal GitHub repositories page",
+      image: '/images/3.jpg',
+      tags: ['React', 'GraphQL', 'GitHub API'],
+    source: 'https://github.com/Taesan-Peter-Kim-Code/reactgraphql',
+    visit: 'https://github.com/Taesan-Peter-Kim-Code/reactgraphql',
+    id: 2,
+  },
   // {
   //   title: 'Unichat',
   //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
