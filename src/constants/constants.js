@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Personal Github Repo',
     description: "Using React and GraphQL, built a personal GitHub repositories page",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['React', 'GraphQL', 'GitHub API'],
     source: 'https://github.com/Taesan-Peter-Kim-Code/reactgraphql',
     visit: 'https://github.com/Taesan-Peter-Kim-Code/reactgraphql',
